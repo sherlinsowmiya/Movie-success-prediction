@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black"
+    tools:context=".Activity6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="SEARCH SERIES..."
+        android:textColor="@color/white"  />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="5" >
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="217dp"
+            android:layout_height="313dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_margin="10sp"
+            app:srcCompat="@drawable/got" />
+
+        <ImageView
+            android:id="@+id/umbrella"
+            android:layout_width="212dp"
+            android:layout_height="332dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            app:srcCompat="@drawable/umbrellaacademy" />
+
+        <ImageView
+            android:id="@+id/money"
+            android:layout_width="195dp"
+            android:layout_height="329dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            app:srcCompat="@drawable/money" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="347dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            app:srcCompat="@drawable/peaky" />
+
+
+    </GridLayout>
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

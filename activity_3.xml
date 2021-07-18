@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black"
+    tools:context=".Activity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="698dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="400dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/mater" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="MASTER (7.9 IMDb)"
+            android:textColor="#ff0006"
+            android:textFontWeight="40"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="MASTER is a Indian-Tamil action film,released on January 13,2021 written and directed by Lokesh Kanagaraj , the film has THALAPATHY VIJAY in the lead role AND VIJAY SETHUPATHY as the antagonist,Music is composed by Anirudh ravichandar
+.The running time of the movie is 180 minutes , budget of the film is 135 crore and the box office collection is 300 crore.This is a must watchable film with best action sequence and music."
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+</LinearLayout>

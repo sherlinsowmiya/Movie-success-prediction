@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black"
+    tools:context=".Activity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="SEARCH MOVIES..."
+        android:textSize="25sp"
+        android:textColor="@color/white" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="5"
+
+        >
+
+        <ImageView
+            android:id="@+id/master"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_gravity="fill"
+            android:layout_margin="10sp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            app:srcCompat="@drawable/mater" />
+
+        <ImageView
+            android:id="@+id/sooraraipootru"
+            android:layout_width="100sp"
+            android:layout_height="80sp"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            app:srcCompat="@drawable/sooraraipootru" />
+
+        <ImageView
+            android:id="@+id/teddy"
+            android:layout_width="86dp"
+            android:layout_height="80dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10sp"
+            android:layout_gravity="fill"
+            app:srcCompat="@drawable/download" />
+
+        <ImageView
+            android:id="@+id/karnan"
+            android:layout_width="100sp"
+            android:layout_height="80sp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            app:srcCompat="@drawable/karana" />
+
+
+    </GridLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
